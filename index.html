@@ -1,53 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/tiktok-brands-solid-full.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="img/tiktok-brands-solid-full.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Tik Tok</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="app-container">
-        <header class="app-header">
-            <div class="logo-container">
-                <img src="img/tiktok-logo-9.png" alt="logo TikTok">
-            </div>
-            <div class="header-items active">Seguindo</div>
-            <div class="header-items">Pesquisar</div>
-        </header> 
-        
-    
-    <main class="videos-container">
+      <header class="app-header">
+        <div class="logo-container">
+          <img src="img/tiktok-logo-9.png" alt="logo TikTok" />
+        </div>
+        <div class="header-items active">Seguindo</div>
+        <div class="header-items">Pesquisar</div>
+      </header>
 
+      <main class="videos-container">
+        <!-- Video 1 -->
         <div class="video-container" id="video-1">
-            <video src="video/video 1.mp4" loop playsinline></video>
+          <video src="video/video 1.mp4" loop playsinline></video>
 
-            <div class="video-info">
-                <div class="video-user">
-                    <h3>@usuario</h3>
-                    <p>Clone do tiktok com HTML, CSS e JavaScript #devclub</p>
-                </div>
-
+          <div class="video-info">
+            <div class="video-user">
+              <h3>@usuario</h3>
+              <p>Clone do tiktok com HTML, CSS e JavaScript #devclub</p>
             </div>
+          </div>
+
+          <!-- Botão de curtir -->
+          <div class="video-sidebar">
+            <!-- like -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-heart"></i>
+              <span>1.2k</span>
+            </div>
+            <!-- comentários -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-comment"></i>
+              <span>200</span>
+            </div>
+            <!-- compartilhar -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-share"></i>
+              <span>81</span>
+            </div>
+          </div>
         </div>
 
-        <div class="video-container" id="video-2">
-            <video src="video/video 2.mp4" loop playsinline></video>
+        <!-- Video 2 -->
+         <div class="video-container" id="video-2">
+          <video src="video/video 2.mp4" loop playsinline></video>
+
+          <div class="video-info">
+            <div class="video-user">
+              <h3>@usuario</h3>
+              <p>Clone do tiktok com HTML, CSS e JavaScript #devclub</p>
+            </div>
+          </div>
+
+          <!-- Botão de curtir -->
+          <div class="video-sidebar">
+            <!-- like -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-heart"></i>
+              <span>1.2k</span>
+            </div>
+            <!-- comentários -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-comment"></i>
+              <span>200</span>
+            </div>
+            <!-- compartilhar -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-share"></i>
+              <span>81</span>
+            </div>
+          </div>
         </div>
 
+        <!-- Video 3 -->
         <div class="video-container" id="video-3">
-            <video src="video/video 3.mp4" loop playsinline></video>
-    </main>
+          <video src="video/video 3.mp4" loop playsinline></video>
+
+          <div class="video-info">
+            <div class="video-user">
+              <h3>@usuario</h3>
+              <p>Clone do tiktok com HTML, CSS e JavaScript #devclub</p>
+            </div>
+          </div>
+
+          <!-- Botão de curtir -->
+          <div class="video-sidebar">
+            <!-- like -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-heart"></i>
+              <span>1.2k</span>
+            </div>
+            <!-- comentários -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-comment"></i>
+              <span>200</span>
+            </div>
+            <!-- compartilhar -->
+            <div class="sidebar-icon">
+              <i class="fa-solid fa-share"></i>
+              <span>81</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Rodapé -->
+      <footer class="app-footer">
+
+        <div class="footer-item">
+          <i class="fa-solid fa-house"></i>
+          <span>Início</span>
+        </div>
+
+        <div class="footer-item">
+          <i class="fa-solid fa-compass"></i>
+          <span>Descobrir</span>
+        </div>
+
+        <div class="footer-item">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+
+        <div class="footer-item">
+          <i class="fa-solid fa-inbox"></i>
+          <span>Caixa</span>
+        </div>
+
+        <div class="footer-item">
+          <i class="fa-solid fa-users"></i>
+          <span>Eu</span>
+        </div>
+
+      </footer>
 
     </div>
-
-    
-    
-
-</body>
-
-
+  </body>
 </html>

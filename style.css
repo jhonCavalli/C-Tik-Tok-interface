@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-heart: #ff0050;
+    --color-text-light: rgba(255, 255, 255, 0.8);
+    --color-text-dark: rgba(0, 0, 0, 0.6);
+    --max-width: 500px;
+    --header-height:50px;
+    --footer-height: 60px;
+    
+}
+

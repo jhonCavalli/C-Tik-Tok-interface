@@ -175,8 +175,14 @@ video {
     margin-bottom: 3px;
 }
 
-.footer-item span {
-
-    
-
+.footer-item.add-video {
+    background-color: var(--color-white);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    color: var(--color-black);
 }

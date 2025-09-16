@@ -33,6 +33,6 @@ Font Awesome → Ícones interativos.
 
 📸 Demonstração
 
-[![Logo TikTok Clone](img/Captura%20de%20tela%202025-09-15%20231142.png)
+![Logo TikTok Clone](img/Captura%20de%20tela%202025-09-15%20231142.png)
 
 https://jhoncavalli.github.io/C-Tik-Tok-interface/
